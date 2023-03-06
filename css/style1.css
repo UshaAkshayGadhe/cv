@@ -1,0 +1,117 @@
+body{
+
+  margin: 0;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.top-container{
+  
+
+  padding-top: 70px;
+  background-image: url(../images/mt1.jpg);
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+   
+}
+.skill{     
+     padding-top:10px;
+     width: 100%;
+     height: 100%;
+     
+     background-color: rgb(73, 132, 187); 
+     
+    }
+.skill-row{
+      width: 40%;
+      margin: 40px auto 100px auto;
+      text-align: left;
+    }
+    
+.skill-img{
+      width:25% ;
+      width: 150px;
+      height: 150px;
+      float: left;
+      margin-right:20px;               
+}
+
+      
+.hobby-img{
+        width: 25%;
+        width: 150px;
+        height: 150px;
+        float: right;
+        
+}
+         
+
+.top-cloud{
+  opacity:70%;
+    position: absolute;
+    right: 71px;
+    top:30px;
+    width: 400px;
+    animation-name: floating1;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+    }
+
+.bottom-cloud{
+
+    position:absolute;
+    left: 108px;
+    bottom: 240px;
+    width: 400px;
+    opacity: 70%;
+    animation-name: floating2;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  .middle-cloud{
+  position: absolute;
+  right: 70px;
+  width: 200px; 
+  height: 100px;   
+  opacity: 90%; 
+  animation-name: floating3;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+ }
+
+ @keyframes floating1 { 
+  0% { transform: translate(0px,  0); }
+  50%  { transform: translate(15px, 0); }
+  100%   { transform: translate(-0px, 0); }   
+    }
+ @keyframes floating2{
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(30px, 0px); }
+  100%   { transform: translate(0, -0px); }   
+    }
+
+ @keyframes floating3  {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(15px,0px); }
+  100%   { transform: translate(0, -0px); }   
+   }
+
+.mountain{
+  width: 400px;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-bottom: 30px;
+}
+.usha-img{
+  border-radius:50% ;
+  width: 150px;
+  height: 150px;
+}
+
